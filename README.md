@@ -1,6 +1,15 @@
 # ASE Cases
 Gene-level Allele Specific Expression Data from Rare Case Cohorts. Briefly for each cohort documented, gene-level haplotype aggregated ASE data has been provided following the best practice protocols. 
 
+
+## Data Format
+Each file is an excel file with the following:
+* Each row corresponds to a gene ID (idenitifed by ENSEMBL ID)
+* Each column is a sample ID with corresponding values being the gene-level (reference count, alternate count, and ANEVA-DOT p-value) for outlier testing.
+* For details on what tissues were used for ANEVA-DOT testing please read our paper [here]()
+
+
+
 ## Datasets
 ### MDM
 _MDM_case_ase.csv_: 46 Muscular Dystrophy Samples from the Genetics of [Inherited Muscle Disease Cohort (dbGAP)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000655.v3.p1). Phasing of genotypes was performed using EAGLE and the Illumina 30x high coverage genotypes as a reference panel. ASE data was generated using the [PAC](https://github.com/anna-saukkonen/PAC) pipeline.  
