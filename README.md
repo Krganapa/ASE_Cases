@@ -1,5 +1,5 @@
 # ASE Cases
-Gene-level Allele Specific Expression Data from Rare Case Cohorts. Briefly for each cohort documented, gene-level haplotype aggregated ASE data has been provided following the best practice protocols. 
+Gene-level Allele Specific Expression Data from Rare Case Cohorts. Briefly for each cohort documented, gene-level haplotype aggregated ASE data has been provided following the best practice protocols. For further information refer to our paper [here]().
 
 
 ## Data Format
